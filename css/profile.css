@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*start-navbar*/
+nav {
+    background-color: #138808;
+    height: 64px;
+    min-height: 25px;
+    max-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+}
+
+footer{
+    padding: 0 18px;
+    color: white;
+    background-color: #72d369;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.navbarList {
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: white;
+}
+
+li {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*#end-navbar*/
+
+.profileDiv {
+    background-color: #72d369;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+}
+
+.informationDiv {
+    margin: auto;
+}
+
+.occ {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.contact{
+    width: 700px;
+    height: 400px;
+    overflow: auto;
+}
+.about{
+    width: 560px;
+    height: 350px;
+    overflow: auto;
+}
+
+.username {
+    width: 200px;
+    height: 30px;
+}
+
+.location {
+    width: 200px;
+    height: 30px;
+}
+
+.pictureDiv {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.proImg {
+    width: 200px;
+    height: 200px;
+}

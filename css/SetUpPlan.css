@@ -1,0 +1,86 @@
+/*start-navbar*/
+nav {
+    background-color: #138808;
+    height: 64px;
+    min-height: 25px;
+    max-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+}
+
+.logo {
+    height: 60px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.navbarList {
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: white;
+}
+
+li {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*#end-navbar*/
+
+.container {
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: beige;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.label {
+    text-align: left !important;
+}
+
+.input {
+    padding: 3px;
+}
+
+.card-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+
+.credit-card {
+    width: 80%;
+}
+
+.cvv {
+    width: 19%;
+}
+
+.button-submit {
+    background-color: #138808;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}

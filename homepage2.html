@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css\homepage2.css">
+    <!--Font Awesome Icons-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- JS file -->
+    <script src="js\homepage2.js"></script>
+</head>
+
+<body>
+    <!--Beginning of Navbar-->
+    <nav>
+        <div>
+            <a href="homepage1.html">
+                <img src="images\moneyTrack Logo.png" class="logo">
+            </a>
+        </div>
+        <div>
+            <ul class="navbarList">
+                <li class="nav-item"><button id="modalbtn"><i class="fa fa-regular fa fa-bell"></i>
+                        Notification</button>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fa-regular fa fa-user"></i>
+                        Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="homepage_not_logged_in.html"><i class="fa fa-sign-out"
+                            aria-hidden="true"></i> Log
+                        Out</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--End of NavBar-->
+    <!--Start of Main Content-->
+    <div class="welcomeback" style="background-image: url('images/cloud.jpg');">
+        <img src=" images/handwave.png" style="height:50px; padding: 5px;">
+        <h1>Welcome Back Jia!</h1>
+    </div>
+    <div class="maincontainer">
+        <div class="daily-limit column-3">
+            <h1 class="title">Today's Limit</h1>
+            <div class="todaysLimit">
+                <h1 class="moneyAmount" style="color: green">$100</h1>
+            </div>
+            <h1 class="title">Today's Spending</h1>
+            <div class="todaysSpending">
+                <ul class="todaysList">
+                    <li class="list-item">-$20 Shoes 11/20/22</li>
+                    <li class="list-item">-$10 Food 11/20/22
+                    </li>
+                    <li class="list-item">-$80 Gas 11/20/22</li>
+                    <li class="list-item">-$20 Movie 11/20/22</li>
+                    <li class="list-item">-$20 Parking 11/20/22</li>
+                </ul>
+            </div>
+            <button type="button" class="addspending">Add Spending</button>
+        </div>
+        <div class="list-spending column-3">
+            <div>
+                <h1 class="title">List of Spendings</h1>
+                <div class="list-of-spending">
+                    <ul class="spendinglist">
+                        <li>-$20 Shoes 11/20/22</li>
+                        <li>-$10 Food 11/20/22</li>
+                        <li>-$80 Gas 11/20/22</li>
+                        <li>-$20 Movie 11/20/22</li>
+                        <li>-$20 Parking 11/20/22</li>
+                        <li>-$200 Electric Bill 11/19/22</li>
+                        <li>-$1500 Rent 11/19/22</li>
+                        <li>-$150 Water Bill 11/19/22
+                        </li>
+                        <li>-$50 Entertainment 11/19/22</li>
+                        <li>-$100 Massage 11/18/22</li>
+                        <li>-$30 Food 11/18/22</li>
+                        <li>-$40 Furniture 11/17/22</li>
+                        <li>-$2000 Mattress 11/15/22</li>
+                        <li>-$1000 Investment 11/15/22</li>
+                        <li>-$250 Car Payment 11/15/22</li>
+                        <li>-$5000 Tuition 11/11/22</li>
+                        <li>-$100 Medication 11/11/22</li>
+                        <li>-$20 Food 11/11/22</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="savings column-3">
+            <div>
+                <h1 class="title">Savings for: "Trip to Hawaii"</h1>
+                <div class="todaysLimit">
+                    <h1 class="moneyAmount" style="color: green">$5000</h1>
+                </div>
+                <div class="todaysSpending">
+                    <ul class="todaysList">
+                        <li>+$1000 11/12/22</li>
+                        <li>+$1000 10/12/22</li>
+                        <li>+$1000 9/12/22</li>
+                        <li>+$1000 8/12/22</li>
+                        <li>+$1000 7/12/22</li>
+                    </ul>
+                </div>
+                <button type="button" class="withdraw">Withdraw</button>
+            </div>
+        </div>
+    </div>
+    <!--End of Main Content-->
+    <!--Start Footer-->
+    <footer id="footer">
+        <i class="footer-icon fa fa-brands fa-twitter"></i>
+        <i class="footer-icon fa fa-brands fa-facebook"></i>
+        <i class="footer-icon fa fa-brands fa-instagram"></i>
+        <i class="footer-icon fa fa-solid fa-envelope"></i>
+        <p>© Copyright 2022 MoneyTrack</p>
+    </footer>
+    <!--End Footer-->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content" style="width: 642px">
+            <div class="notification-title">
+                <h1>Notification</h1><span class="close">&times;</span>
+
+            </div>
+            <div class="notification">
+                <div class="notif-icon"><i class="fa fa-solid fa-bell fa-lg"></i></div>
+                <div class="alert-title">
+                    <h5>You've spent more than your current budget</h5>
+                    <p class="notif-description">This mounth, you have spend $400 on Food. This exceeds your budget of
+                        $350
+                        by $400</p>
+                    <a href="#">View your budget plan now!</a>
+                </div>
+            </div>
+            <hr />
+            <div class="notification">
+                <div class="notif-icon"><i class="fa fa-solid fa-bell fa-lg"></i></div>
+                <div class="alert-title">
+                    <h5>REMINDER: You have 2 bills to pay by 12/10/2022</h5>
+                    <p class="notif-description">Bill 1 is $400</p>
+                    <p class="notif-description">Bill 2 is $500</p>
+                    <a href="#">Pay Bill Now</a>
+                </div>
+            </div>
+            <hr />
+            <div class="notification">
+                <div class="notif-icon"><i class="fa fa-solid fa-bell fa-lg"></i></div>
+                <div class="alert-title">
+                    <h5>You've spent more than your current budget</h5>
+                    <p class="notif-description">This mounth, you have spend $6000 on Entertainment. This exceeds your
+                        budget of
+                        $5000 by $6000</p>
+                    <a href="#">View your budget plan now!</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- JS file -->
+    <script src="js\homepage2.js"></script>
+</body>
+
+</html>
